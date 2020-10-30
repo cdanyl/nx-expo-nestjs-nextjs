@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "fullstack",
+    "slug": "fullstack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./apps/mobile/assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./apps/mobile/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./apps/mobile/assets/images/favicon.png"
+    }
+  }
+}
